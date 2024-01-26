@@ -1,2 +1,2 @@
 # BookClub
-I converted an ER model into relational tables using SQL, created tables with DDL, and populated and queried data for the BookClub project.
+I worked on the BookClub project, where I transformed the Entity-Relationship (ER) model into relational tables, using a data modeling tool. I then utilized SQL to create the necessary tables using Data Definition Language (DDL) statements. After setting up the database structure, I populated the tables with data and crafted SQL queries to retrieve, manipulate, and analyze information within the database. My role involved translating the conceptual ER model into a functional database system, ensuring data integrity and enabling efficient data management for the BookClub application.
