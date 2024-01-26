@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75879CCF-7222-0950-16B7-F5EA6C782FDD" name="Soba">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>AAFCB86A-E514-8B0B-79FE-F0AD2F356E95</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PR_SIF" id="6BAF129A-4AC9-B394-E1CB-53C20CA27F86">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>67FBCA22-1DFA-E96F-3155-7F767E4878EF</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F83367F-7EC6-7028-0BD1-87C6F184BD07" referredColumn="84A0DB3E-487F-1A2D-CB52-7FD75D724776"/>
+</associations>
+</Column>
+<Column name="BR_SOBE" id="B93F5A24-1FBF-F800-C1F4-F812606D69A4">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>9538DD19-8876-83C1-5608-C26F8C7D8F96</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPR" id="E56F239D-5077-E9F8-EF88-2493220312C4">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>D4560261-2CBE-ACF5-1404-408892F7F682</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED66BA2C-7E38-7EDA-B138-49760E4D7403" name="Soba_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>7416ADD5-7101-F457-065D-C8187909B178</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BAF129A-4AC9-B394-E1CB-53C20CA27F86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C749B72-B86D-2C1C-6E1C-06DFC9C5B58E" name="Soba_Prostor_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>8CED5C10-1F39-3F91-50AC-6057FBEB4E23</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BAF129A-4AC9-B394-E1CB-53C20CA27F86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

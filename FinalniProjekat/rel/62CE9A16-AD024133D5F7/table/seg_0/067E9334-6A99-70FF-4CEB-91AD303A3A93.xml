@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="067E9334-6A99-70FF-4CEB-91AD303A3A93" name="Biblioteka">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>72872111-9498-1A86-2997-A588EC9C2DF9</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PR_SIF" id="08E29814-D4D1-6DA8-3926-516A1B0E5281">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>67FBCA22-1DFA-E96F-3155-7F767E4878EF</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC8BD0C0-2F87-DD46-714E-5CE8FCB7CD1A" referredColumn="84A0DB3E-487F-1A2D-CB52-7FD75D724776"/>
+</associations>
+</Column>
+<Column name="ADR_BIBL" id="3CFBC2D3-0061-6479-E2C6-A7B810E313D1">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>8BF1157A-B3F8-6C11-DBE5-41CD0F8062CA</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZ_BIBL" id="3A601D8E-4CD2-FE88-9511-ACF9A3B81692">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>A8DFA22A-92AF-26BC-8312-B4EFFE423D58</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A687BBF2-E7DA-5CD7-8AFE-1A142978C9CA" name="Biblioteka_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>7416ADD5-7101-F457-065D-C8187909B178</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E29814-D4D1-6DA8-3926-516A1B0E5281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DBF586B-4993-5EB1-1567-395282554C19" name="Biblioteka_Prostor_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>A1235E08-1BC7-64B5-1B8C-D868B84688BB</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E29814-D4D1-6DA8-3926-516A1B0E5281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

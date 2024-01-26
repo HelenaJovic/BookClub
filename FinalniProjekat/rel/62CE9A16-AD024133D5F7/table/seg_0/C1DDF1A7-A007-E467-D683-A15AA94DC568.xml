@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1DDF1A7-A007-E467-D683-A15AA94DC568" name="Knjiga">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>00AC4480-DEAD-DC26-F9FA-261CB68FBB3C</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SC_KNJ" id="D18629B1-2BD7-4AD0-B10D-79E786F79BBF">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>B529F28E-CDE3-87A8-2EB5-B94E6CA7F1C7</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZANR" id="68BCB331-0D69-EE9D-166C-CFFADCAF1AD5">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>34F3E678-D7B7-C62A-4102-480EC614B967</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IME_PIS" id="3F77C79F-A655-EAD0-9DD6-11E63DF193D4">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>74D493FD-8FA9-92F8-D63A-C8BD53DBDA0F</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOD_IZD" id="1D4C2270-C405-9252-0CD1-9574FC26B815">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>695B0E2B-7A6D-D272-2B47-788F24E5A4C3</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NASL" id="F3E86E2E-BE62-E17F-33AD-BD3846F1E3A8">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>DB481B65-BA97-A2F8-4385-A7197CB3F202</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOST" id="924058EA-B4A4-63CC-5B68-AC19AD00E624">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>FAACEA92-71DA-2A48-FD5A-E1C07F471658</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0BB7D63-98A1-F412-5F47-87DAC6344FFD" name="Knjiga_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>B6B8CEA3-6214-DFB2-E86B-CF2B69372F85</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D18629B1-2BD7-4AD0-B10D-79E786F79BBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

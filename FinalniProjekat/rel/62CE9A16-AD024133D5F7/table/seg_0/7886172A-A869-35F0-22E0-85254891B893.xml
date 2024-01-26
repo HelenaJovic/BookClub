@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7886172A-A869-35F0-22E0-85254891B893" name="Sekcija">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>C90A16A7-A004-FF30-3B1A-C3529CFED337</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEKC_SIF" id="BA3CA1E6-086A-2857-6119-9DF7CBADB8B9">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>5390592E-C9BB-F753-658E-AC7233F1E74D</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZANR" id="EFA4A882-D2AA-A67B-971C-C816E4AFECB4">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>9A6063FE-D317-D9AD-ECBB-D9AB408955C2</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BR_KNJ" id="FD800539-254A-DD41-7782-820EDB514125">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>CDF7F59D-E9A0-90CF-AA47-AF4AAE49AE28</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Izlagac_ZAP_SIF" id="6388F691-3920-2B56-19B6-EC2E07D51C87">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>BD808817-DFF9-275D-AF4D-F14EA63D7B5A</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5841D3F6-8BE2-AE7F-514C-80E55F6E7540" referredColumn="46AB1B7F-5968-786B-0F58-4E77E63FA6C3"/>
+</associations>
+</Column>
+<Column name="Klub_KL_SIF" id="4CCF61BA-A301-C099-081B-108FB1F459B2">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>4DBC2ADD-BDE5-BA0C-6AD7-F918C86D2314</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="615FEB93-954A-74BF-C31D-0141CD4F0139" referredColumn="7D91FD23-F8B7-0F3E-3D56-D005147D5008"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82B1B345-B2E7-AD54-9B0E-60F6977F381E" name="Sekcija_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>65DDCB56-8CF6-D047-A5CC-7144F437A4DA</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA3CA1E6-086A-2857-6119-9DF7CBADB8B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00157810-F7BF-677A-BDC7-26FE26BCA86D" name="Sekcija__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AF0EF124-965C-3BFF-A3E9-60A5677F3E2A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4CCF61BA-A301-C099-081B-108FB1F459B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC391ED5-B6D4-9852-E9B2-5E409A54ED4D" name="Sekcija_Klub_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>AF0EF124-965C-3BFF-A3E9-60A5677F3E2A</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CCF61BA-A301-C099-081B-108FB1F459B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D39F2C0-53A8-96B8-0846-942C35482090" name="Sekcija_Izlagac_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>9D80BBA5-9645-DB42-5FD7-88F1861FFD05</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6388F691-3920-2B56-19B6-EC2E07D51C87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Koristiv1" directorySegmentName="seg_0" id="1A038B59-FE48-DF74-F783-2097BF95908E">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:14:37 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2A58F522-B024-C4D9-BF1E-DB015640BE1E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AAFCB86A-E514-8B0B-79FE-F0AD2F356E95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

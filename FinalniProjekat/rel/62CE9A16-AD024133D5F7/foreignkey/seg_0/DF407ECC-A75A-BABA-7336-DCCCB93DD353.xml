@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF407ECC-A75A-BABA-7336-DCCCB93DD353" containerWithKeyObject="2E7CC661-CA03-4DE8-F149-C3B82ACAFF31" localFKIndex="01AE0BA3-C6A4-C866-25F1-9BB5F5C2A870" name="SuperClan_Ucestvuje_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>28ED1565-FE87-FEDB-77FE-4213CAA9ADC9</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<referredTableLongName>Ucestvuje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D0CA9788-D0E4-1DD5-2CAD-E30BC590D8BE</referredTableID>
+<keyObject>6BA9C681-CCFE-11AC-68C3-8521814EBBED</keyObject>
+<referredKeyID>6BA9C681-CCFE-11AC-68C3-8521814EBBED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Realizacija_REAL_SIF,Clan_CL_SIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

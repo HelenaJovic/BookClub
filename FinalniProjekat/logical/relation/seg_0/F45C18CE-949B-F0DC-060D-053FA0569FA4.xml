@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Obavlja" directorySegmentName="seg_0" id="F45C18CE-949B-F0DC-060D-053FA0569FA4">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:47:16 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<sourcePk>F4270403-2661-5950-849E-FCC58349330A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>44EC00C3-0B4D-612C-5836-749BDD6ECEBE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17420DED-A585-3F59-6735-76AE3617F401</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

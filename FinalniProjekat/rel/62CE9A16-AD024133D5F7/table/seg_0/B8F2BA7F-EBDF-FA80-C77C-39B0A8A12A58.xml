@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8F2BA7F-EBDF-FA80-C77C-39B0A8A12A58" name="Izlagac">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>9B676D09-43B7-37D9-13DC-620AA3FFFBDF</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZAP_SIF" id="46AB1B7F-5968-786B-0F58-4E77E63FA6C3">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>1E0EAFED-AB27-22F3-B544-7B5B29029EA1</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA88B5FB-0E7A-0E62-5920-B7B9088664D9" referredColumn="217D8E79-ACC3-EA94-5AA6-9A9FCA0076F5"/>
+</associations>
+</Column>
+<Column name="SPEC" id="63ACD106-263D-ACE5-9EA2-DFD629A59986">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>96F88A67-6903-7401-58D6-ECCB17B850EE</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEDD3BF1-F8F5-ABAE-A2CB-8878F194AC55" name="Izlagac_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>F4270403-2661-5950-849E-FCC58349330A</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46AB1B7F-5968-786B-0F58-4E77E63FA6C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BDA361A-B8F6-717C-BF63-43F46E7E90F9" name="Izlagac_Zaposleni_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>71C8DF16-913F-044F-B0BC-C7CBE08387F5</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46AB1B7F-5968-786B-0F58-4E77E63FA6C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

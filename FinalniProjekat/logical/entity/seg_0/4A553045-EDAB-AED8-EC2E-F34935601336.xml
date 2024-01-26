@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A553045-EDAB-AED8-EC2E-F34935601336" name="Ucestvuje">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:37:40 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="REAL_SIF" id="F7985190-9722-1CEF-2790-7CDAED184DCC">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:38:45 UTC</createdTime>
+<generatorID>BEA62745-8EA6-F0DB-17BA-5F69821BAB1C</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<referedAttribute>9BE7E74B-B79F-EE03-1CCA-9FFA834BE098</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CL_SIF" id="DE3AB4CF-5935-7D72-8480-204A3BAEFFBB">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:39:26 UTC</createdTime>
+<generatorID>EEE17519-3FFD-7466-9292-9DA7450AC33F</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<referedAttribute>1DA21D92-4398-ED1D-A1BF-6B810BB9EDC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B57719FB-DCD5-2682-2B87-B2E1F66811E0" name="Ucestvuje PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:38:45 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7985190-9722-1CEF-2790-7CDAED184DCC</attributeRef>
+<attributeRef>DE3AB4CF-5935-7D72-8480-204A3BAEFFBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

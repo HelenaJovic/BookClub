@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="148DA050-128D-31EF-E677-7900BDC92E36" containerWithKeyObject="31C2E71D-5E78-A515-2C10-F005EB73C32E" localFKIndex="5B03A6AC-6358-A398-35B2-DBBF94A1142F" name="Koristiv1_Soba_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>1A038B59-FE48-DF74-F783-2097BF95908E</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<referredTableLongName>Soba</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75879CCF-7222-0950-16B7-F5EA6C782FDD</referredTableID>
+<keyObject>ED66BA2C-7E38-7EDA-B138-49760E4D7403</keyObject>
+<referredKeyID>ED66BA2C-7E38-7EDA-B138-49760E4D7403</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PR_SIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

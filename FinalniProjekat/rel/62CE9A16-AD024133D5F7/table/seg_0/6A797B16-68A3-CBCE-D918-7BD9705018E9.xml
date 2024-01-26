@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A797B16-68A3-CBCE-D918-7BD9705018E9" name="Sadrzi">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Knjiga_SC_KNJ" id="A2BF3AF2-88E4-2C62-D986-265CF430A354">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF66C19F-9D54-C302-8917-3183A7007FD5" referredColumn="D18629B1-2BD7-4AD0-B10D-79E786F79BBF"/>
+</associations>
+</Column>
+<Column name="Sekcija_SEKC_SIF" id="E654F156-F453-3038-7539-C6715E9305D0">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71C9CD96-BEC1-1404-B071-88A9DF001001" referredColumn="BA3CA1E6-086A-2857-6119-9DF7CBADB8B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30175BDC-C3BD-2C54-65E2-DBF807DFF4AB" name="Relation_6_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2BF3AF2-88E4-2C62-D986-265CF430A354"/>
+<colUsage columnID="E654F156-F453-3038-7539-C6715E9305D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1727472A-2D5E-3313-704E-DF37106F306E" name="Relation_6_Knjiga_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<generatorID>F6306AB2-2DD4-6167-3596-3C61DBF8D6E1</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2BF3AF2-88E4-2C62-D986-265CF430A354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A63DE34-1F2F-622B-7A80-B6FE7D25490C" name="Relation_6_Sekcija_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<generatorID>F6306AB2-2DD4-6167-3596-3C61DBF8D6E1</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E654F156-F453-3038-7539-C6715E9305D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

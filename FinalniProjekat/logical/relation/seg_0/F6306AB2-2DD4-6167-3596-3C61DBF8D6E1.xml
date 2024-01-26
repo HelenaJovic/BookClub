@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sadrzi" directorySegmentName="seg_0" id="F6306AB2-2DD4-6167-3596-3C61DBF8D6E1">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:56:09 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<sourcePk>B6B8CEA3-6214-DFB2-E86B-CF2B69372F85</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>00AC4480-DEAD-DC26-F9FA-261CB68FBB3C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C90A16A7-A004-FF30-3B1A-C3529CFED337</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

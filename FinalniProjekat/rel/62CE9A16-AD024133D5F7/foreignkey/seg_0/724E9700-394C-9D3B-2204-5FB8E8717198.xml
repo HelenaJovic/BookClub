@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="724E9700-394C-9D3B-2204-5FB8E8717198" containerWithKeyObject="CC1B4ADB-0BBC-4FA9-94C1-973A264915CB" localFKIndex="290CF1B0-94E4-E72D-71AB-E586871D3069" name="Klub_Soba_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>9358DB52-7BD5-4310-83E4-B048CCC0BD37</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<referredTableLongName>Soba</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75879CCF-7222-0950-16B7-F5EA6C782FDD</referredTableID>
+<keyObject>ED66BA2C-7E38-7EDA-B138-49760E4D7403</keyObject>
+<referredKeyID>ED66BA2C-7E38-7EDA-B138-49760E4D7403</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PR_SIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

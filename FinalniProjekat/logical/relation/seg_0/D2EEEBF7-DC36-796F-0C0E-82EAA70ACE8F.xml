@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ImajuPredsednika" directorySegmentName="seg_0" id="D2EEEBF7-DC36-796F-0C0E-82EAA70ACE8F">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:34:11 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<targetPk>6FD7658F-A839-EBE3-9341-78AF33F0FF6B</targetPk>
+<identifying>false</identifying>
+<nameOnSource>rukovodi</nameOnSource>
+<nameOnTarget>rukovodjen</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7D3727E3-0C4C-C710-26AD-9DF3BA2F7A66</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7D3727E3-0C4C-C710-26AD-9DF3BA2F7A66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

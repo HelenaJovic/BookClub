@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC8BD0C0-2F87-DD46-714E-5CE8FCB7CD1A" containerWithKeyObject="067E9334-6A99-70FF-4CEB-91AD303A3A93" localFKIndex="7DBF586B-4993-5EB1-1567-395282554C19" name="Biblioteka_Prostor_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>A1235E08-1BC7-64B5-1B8C-D868B84688BB</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<referredTableLongName>Prostor</referredTableLongName>
+<arc>21A995F9-2CF0-0C0F-2494-5C3EE9E75553</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A951E40-8AD6-591D-445F-CEC40296EB97</referredTableID>
+<keyObject>DD89C589-67E9-85FD-53CF-4765C69B3306</keyObject>
+<referredKeyID>DD89C589-67E9-85FD-53CF-4765C69B3306</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PR_SIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Biblioteka</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

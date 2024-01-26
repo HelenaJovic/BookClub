@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E819DD05-0405-7005-776D-37CA5503D025" name="Bibliotekar">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>44EC00C3-0B4D-612C-5836-749BDD6ECEBE</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZAP_SIF" id="208F598B-6D31-F9AB-2052-6EC710B2A2DA">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>1E0EAFED-AB27-22F3-B544-7B5B29029EA1</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DD05E94-34B3-9BCA-4F8B-8B54B0B86101" referredColumn="217D8E79-ACC3-EA94-5AA6-9A9FCA0076F5"/>
+</associations>
+</Column>
+<Column name="ISK" id="193E974F-2920-7B84-2D24-6642E4A3F2B0">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>DE22767C-26CD-15B4-E942-CF98DDF24872</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A7502BA-015E-1CE8-DC2C-170A08B8BF4C" name="Bibliotekar_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>F4270403-2661-5950-849E-FCC58349330A</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208F598B-6D31-F9AB-2052-6EC710B2A2DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA178CF2-28BE-E0CF-D7A4-3873D81FD65C" name="Bibliotekar_Zaposleni_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>1D93F135-9D33-93F8-CFE3-D8E449A4330B</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208F598B-6D31-F9AB-2052-6EC710B2A2DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

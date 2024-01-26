@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0CA9788-D0E4-1DD5-2CAD-E30BC590D8BE" name="Ucestvuje">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>4A553045-EDAB-AED8-EC2E-F34935601336</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Realizacija_REAL_SIF" id="DA720CA0-CA5E-498A-7662-7BF6B0F2E230">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>F7985190-9722-1CEF-2790-7CDAED184DCC</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C10A2378-7F24-234C-76DB-A51B98502059" referredColumn="ED05BAE2-8B55-484D-B0C4-7D7704C3EAA5"/>
+</associations>
+</Column>
+<Column name="Clan_CL_SIF" id="171AFA8E-31FA-8FCD-70A1-56F59355A0CB">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>DE3AB4CF-5935-7D72-8480-204A3BAEFFBB</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="120A86D2-4014-EFD5-3050-3C9A4BAD57D3" referredColumn="587BFBCB-DBE4-1517-BDC0-A5AEBFEC3C87"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BA9C681-CCFE-11AC-68C3-8521814EBBED" name="Ucestvuje_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>B57719FB-DCD5-2682-2B87-B2E1F66811E0</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA720CA0-CA5E-498A-7662-7BF6B0F2E230"/>
+<colUsage columnID="171AFA8E-31FA-8FCD-70A1-56F59355A0CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BB23BE1-EAF2-7131-AE09-25068EB33E63" name="Ucestvuje_Realizacija_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>BEA62745-8EA6-F0DB-17BA-5F69821BAB1C</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA720CA0-CA5E-498A-7662-7BF6B0F2E230"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A838309-203F-04E9-AB7C-21922EC1B07F" name="Ucestvuje_Clan_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>EEE17519-3FFD-7466-9292-9DA7450AC33F</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="171AFA8E-31FA-8FCD-70A1-56F59355A0CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

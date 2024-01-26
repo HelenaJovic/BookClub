@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A2CED61-78A0-E147-D313-7693B6E6EFD0" name="ClanskaKartica">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>13DD489A-7BBD-DE72-CFF5-03829F496319</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KAR_SIF" id="90D54416-24AC-7D20-1564-CBB7BA734EF5">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>B29F79D0-53C1-69CC-4D92-3D67A57B8ED1</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BR_BOD" id="89A08B3C-0613-40F9-800D-B7ED1ABF6BE7">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>60A21BED-4AEE-0E0D-08E7-433C9F9BC907</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_IZD" id="3453E9F4-44C2-4E1D-C6A8-DD02178B3FD7">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>D58E5AA5-A7CE-CF2B-CC8D-F64AFD751F55</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clan_CL_SIF" id="A333248B-D449-646F-C5A2-6892EB4F487B">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>AD2E113B-5A60-2370-F32E-05EAD470724B</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B74375A3-B3EB-C70F-EC91-CF36C2F7F411" referredColumn="587BFBCB-DBE4-1517-BDC0-A5AEBFEC3C87"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E228D3F-FA39-F9D1-6B0B-FBB95B709F5A" name="ClanskaKartica_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>21C5AB1F-5A43-7E1C-F7E1-96BEE7D9B43C</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D54416-24AC-7D20-1564-CBB7BA734EF5"/>
+<colUsage columnID="A333248B-D449-646F-C5A2-6892EB4F487B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B25AECD0-E975-FF55-4B13-C72667E00205" name="ClanskaKartica__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F9CA60C1-398A-FE83-FF52-D0943007CE5E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A333248B-D449-646F-C5A2-6892EB4F487B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C314DFB-BE40-49B7-A1EE-BC0C973D7193" name="ClanskaKartica_Clan_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>F9CA60C1-398A-FE83-FF52-D0943007CE5E</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A333248B-D449-646F-C5A2-6892EB4F487B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

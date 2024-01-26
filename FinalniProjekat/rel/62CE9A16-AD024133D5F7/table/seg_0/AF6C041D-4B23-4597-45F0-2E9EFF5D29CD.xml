@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF6C041D-4B23-4597-45F0-2E9EFF5D29CD" name="Izdavanje">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>17420DED-A585-3F59-6735-76AE3617F401</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DAT_IZD" id="88445D02-82E0-C824-609F-C29271337657">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>2141C4D7-13B0-107E-C6B9-48C9A27394C7</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bibliotekar_ZAP_SIF" id="7E779A4E-54CB-B8F9-3C3C-384E7084A5FF">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>EB654207-B055-9AE0-0B0F-84EB8D4FDF20</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3822F696-13DE-4844-5F62-1BFA864C6446" referredColumn="208F598B-6D31-F9AB-2052-6EC710B2A2DA"/>
+</associations>
+</Column>
+<Column name="Knjiga_SC_KNJ" id="42EFCF47-D3F7-0396-F448-6671B5EC84C7">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>E0893CE2-EB4E-1E50-7D8B-EAB5B2EDA7A3</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A2048B0-25AF-DC21-EB2C-0EAB59C75818" referredColumn="D18629B1-2BD7-4AD0-B10D-79E786F79BBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C50F7AB6-B50E-0059-9270-6B4A838EC05E" name="Izdavanje_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:04 UTC</createdTime>
+<generatorID>4227A706-8202-D23F-0296-DEBD578DA893</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E779A4E-54CB-B8F9-3C3C-384E7084A5FF"/>
+<colUsage columnID="42EFCF47-D3F7-0396-F448-6671B5EC84C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7719055A-DBD2-90A7-AC6B-CC5CFE634ACC" name="Izdavanje__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F45C18CE-949B-F0DC-060D-053FA0569FA4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7E779A4E-54CB-B8F9-3C3C-384E7084A5FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B86E16DE-EF19-F697-8BCA-F877074BF713" name="Izdavanje_Knjiga_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<generatorID>0340A2BB-C62F-BEFB-22A3-197827C93744</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42EFCF47-D3F7-0396-F448-6671B5EC84C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E7806D9-5103-95DB-3AA6-09280059851D" name="Izdavanje_Bibliotekar_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<generatorID>F45C18CE-949B-F0DC-060D-053FA0569FA4</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E779A4E-54CB-B8F9-3C3C-384E7084A5FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

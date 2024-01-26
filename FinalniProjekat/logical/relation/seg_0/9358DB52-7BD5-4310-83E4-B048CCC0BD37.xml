@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Iznajmljuje" directorySegmentName="seg_0" id="9358DB52-7BD5-4310-83E4-B048CCC0BD37">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:17:03 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<sourcePk>7416ADD5-7101-F457-065D-C8187909B178</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AAFCB86A-E514-8B0B-79FE-F0AD2F356E95</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8404CE25-7AA2-AC4D-84DB-9284C79FB03B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17420DED-A585-3F59-6735-76AE3617F401" name="Izdavanje">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:44:15 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DAT_IZD" id="2141C4D7-13B0-107E-C6B9-48C9A27394C7">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:44:31 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZAP_SIF" id="EB654207-B055-9AE0-0B0F-84EB8D4FDF20">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:47:16 UTC</createdTime>
+<generatorID>F45C18CE-949B-F0DC-060D-053FA0569FA4</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<referedAttribute>1E0EAFED-AB27-22F3-B544-7B5B29029EA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SC_KNJ" id="E0893CE2-EB4E-1E50-7D8B-EAB5B2EDA7A3">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:51:43 UTC</createdTime>
+<generatorID>0340A2BB-C62F-BEFB-22A3-197827C93744</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<referedAttribute>B529F28E-CDE3-87A8-2EB5-B94E6CA7F1C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4227A706-8202-D23F-0296-DEBD578DA893" name="Izdavanje PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:47:16 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB654207-B055-9AE0-0B0F-84EB8D4FDF20</attributeRef>
+<attributeRef>E0893CE2-EB4E-1E50-7D8B-EAB5B2EDA7A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

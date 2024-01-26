@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C034F70-DF37-05F2-795C-4BDF276D9D20" name="Ima">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PR_SIF" id="D3DF5527-643F-B8D2-059E-3B044B2795CA">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A989DBC3-6A4F-7A23-A550-2C71D8B2745C" referredColumn="08E29814-D4D1-6DA8-3926-516A1B0E5281"/>
+</associations>
+</Column>
+<Column name="SEKC_SIF" id="DDFA2A84-FDD2-888B-EBAE-5522CB46C947">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79B0838D-346E-2204-8A2F-B59DF9E1A3C2" referredColumn="BA3CA1E6-086A-2857-6119-9DF7CBADB8B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75C2991F-ADF1-B2A1-78C2-CB490BEA9EC3" name="Ima_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3DF5527-643F-B8D2-059E-3B044B2795CA"/>
+<colUsage columnID="DDFA2A84-FDD2-888B-EBAE-5522CB46C947"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26A25FF2-DC27-70BE-BEE5-6CFD7FC71A39" name="Ima_Biblioteka_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<generatorID>712AEA68-56AA-94AC-7A4C-9077895DE69D</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3DF5527-643F-B8D2-059E-3B044B2795CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A18E1328-6B5B-16A6-266A-D3841C181A24" name="Ima_Sekcija_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 19:59:05 UTC</createdTime>
+<generatorID>712AEA68-56AA-94AC-7A4C-9077895DE69D</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDFA2A84-FDD2-888B-EBAE-5522CB46C947"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

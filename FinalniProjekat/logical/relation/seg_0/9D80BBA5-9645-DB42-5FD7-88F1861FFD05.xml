@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rukovodi" directorySegmentName="seg_0" id="9D80BBA5-9645-DB42-5FD7-88F1861FFD05">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:05:31 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<engineerTo>
+<item key="62CE9A16-E12B-116C-E2B3-AD024133D5F7" value="true"/>
+</engineerTo>
+<sourcePk>F4270403-2661-5950-849E-FCC58349330A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B676D09-43B7-37D9-13DC-620AA3FFFBDF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C90A16A7-A004-FF30-3B1A-C3529CFED337</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

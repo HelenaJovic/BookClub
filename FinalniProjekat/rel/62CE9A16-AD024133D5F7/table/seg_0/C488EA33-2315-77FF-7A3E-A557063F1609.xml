@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C488EA33-2315-77FF-7A3E-A557063F1609" name="Nadgleda">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZAP_SIF" id="B2DEFB30-2E5C-1A52-DABD-85AB4A932D5B">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99C569F1-E7A3-1E27-4CB3-CEC5C4386A80" referredColumn="C69FBDA2-BFEB-72F8-9320-993DF54976DF"/>
+</associations>
+</Column>
+<Column name="AKT_SIF" id="ED7B79B0-1F7B-2F53-A82C-9B00D9E581D4">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23BC7A81-61D8-E6D4-6884-FDEA4B67FA33" referredColumn="0D233069-8BAF-5501-AA7A-FFA867E812BD"/>
+</associations>
+</Column>
+<Column name="ID_TIP" id="0E1A9DAD-77E8-4956-556B-B43BF46111A9">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23BC7A81-61D8-E6D4-6884-FDEA4B67FA33" referredColumn="C3C7A585-13E2-BBE9-8EA0-073A1FADE8A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D45FBAD-ABE0-3107-E41B-D20405EF878C" name="Nadgleda_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2DEFB30-2E5C-1A52-DABD-85AB4A932D5B"/>
+<colUsage columnID="ED7B79B0-1F7B-2F53-A82C-9B00D9E581D4"/>
+<colUsage columnID="0E1A9DAD-77E8-4956-556B-B43BF46111A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3B066C7-7870-310F-EFA2-47DB67A2A1EE" name="Nadgleda_Rukovodilac_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>59C9E9B7-E30E-FFBF-F90A-D3A594B86C80</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2DEFB30-2E5C-1A52-DABD-85AB4A932D5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85E7FC88-ED7E-98E3-C110-A5BA6CE8A456" name="Nadgleda_Aktivnost_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>59C9E9B7-E30E-FFBF-F90A-D3A594B86C80</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED7B79B0-1F7B-2F53-A82C-9B00D9E581D4"/>
+<colUsage columnID="0E1A9DAD-77E8-4956-556B-B43BF46111A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

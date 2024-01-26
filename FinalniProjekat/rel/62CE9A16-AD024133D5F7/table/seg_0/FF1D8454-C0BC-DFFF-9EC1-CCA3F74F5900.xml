@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF1D8454-C0BC-DFFF-9EC1-CCA3F74F5900" name="Aktivnost">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>B331AB05-38F5-F7A6-99F9-98278966671D</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AKT_SIF" id="0D233069-8BAF-5501-AA7A-FFA867E812BD">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>52945209-0449-0F2B-54B0-2A912BAF2A8B</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipAktivnosti_ID_TIP" id="C3C7A585-13E2-BBE9-8EA0-073A1FADE8A4">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>DD014DAF-E0C7-EC94-737A-4AFEEE86DAAC</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39297236-B9E6-E038-FFE9-EE1B219F22DD" referredColumn="074A8B5E-AA62-438D-807F-4D6B112F821E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EA7C0EE-4A1C-25FD-FB44-DF7A849AAB33" name="Aktivnost_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>C84E119C-1FFD-0E9C-BE4B-5C1D0575EFEA</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D233069-8BAF-5501-AA7A-FFA867E812BD"/>
+<colUsage columnID="C3C7A585-13E2-BBE9-8EA0-073A1FADE8A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52BFA811-7A6F-EEB9-7F80-15832CB2CDED" name="Aktivnost__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D25A18AD-424E-4461-97F1-94667416692D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C3C7A585-13E2-BBE9-8EA0-073A1FADE8A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51E5F6A8-7A15-A1F3-9851-A8C6E411BE74" name="Aktivnost_TipAktivnosti_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>D25A18AD-424E-4461-97F1-94667416692D</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3C7A585-13E2-BBE9-8EA0-073A1FADE8A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

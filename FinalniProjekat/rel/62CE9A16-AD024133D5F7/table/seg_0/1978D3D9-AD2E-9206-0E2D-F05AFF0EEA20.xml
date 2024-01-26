@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1978D3D9-AD2E-9206-0E2D-F05AFF0EEA20" name="Poseduje">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Klub_KL_SIF" id="A636F6E9-691A-CEA0-8FE9-3EFA46F2CB4F">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9060C0E6-0875-10E5-3D13-5F9BE7D421A2" referredColumn="7D91FD23-F8B7-0F3E-3D56-D005147D5008"/>
+</associations>
+</Column>
+<Column name="Clan_CL_SIF" id="4F9E41A5-82CF-5733-801C-F9AF08702B59">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56615209-A17A-AD2F-4780-43A3605748CC" referredColumn="587BFBCB-DBE4-1517-BDC0-A5AEBFEC3C87"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="549994FE-E0BE-14C9-670C-6937020E4220" name="Poseduje_PK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A636F6E9-691A-CEA0-8FE9-3EFA46F2CB4F"/>
+<colUsage columnID="4F9E41A5-82CF-5733-801C-F9AF08702B59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31EEA487-B1E8-593E-2539-7B1FDF57133D" name="Poseduje_Klub_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>88F9BC89-81ED-DACE-532B-723E83276672</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A636F6E9-691A-CEA0-8FE9-3EFA46F2CB4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97CEDE1E-CB0F-A64F-003A-A1F20DD3FB02" name="Poseduje_Clan_FK">
+<createdBy>pc</createdBy>
+<createdTime>2024-01-14 20:46:53 UTC</createdTime>
+<generatorID>88F9BC89-81ED-DACE-532B-723E83276672</generatorID>
+<ownerDesignName>FinalniProjekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F9E41A5-82CF-5733-801C-F9AF08702B59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
